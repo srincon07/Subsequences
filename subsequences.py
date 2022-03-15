@@ -1,13 +1,3 @@
-strings = [
-    'vascular',
-    'vat',
-    'avast',
-    'javas',
-    'art',
-    'script'
-]
-
-
 # Finding the longest word
 def getLongestString(arrayOfStrings):
     logestString = ''
@@ -67,7 +57,14 @@ def longestMatch(string, dictionary):
 
 # Main
 def run():
-    
+    strings = [
+        'vascular',
+        'vat',
+        'avast',
+        'javas',
+        'art',
+        'script'
+    ] 
     stringSecuence = 'javascript'
     
     words = '\n'.join(strings)
